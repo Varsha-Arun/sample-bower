@@ -9,15 +9,16 @@ node_js:
 # The path for Xunit to output test reports
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
-  
+
 before_install:
   - source ~/.nvm/nvm.sh && nvm install $SHIPPABLE_NODE_VERSION
   - node --version
   - npm install -g grunt-cli
+  - npm install -g bower
 
 install:
   - npm install
-  
+
 # Running the tests with grunt
 script:
   - grunt
