@@ -1,9 +1,9 @@
-Node.js Sample
+Sample Bower with Node.js
 =================
 
 This sample is built for Shippable, a docker based continuous integration and deployment platform.
 
-This sample helps you create a shippable.yml file for your Node.js project on Shippable. It uses Grunt to run tests against an Express server, then generates reports with Xunit and Istanbul. Please refer to our [language specific documentation on Node.js](http://docs.shippable.com/languages/#nodejs) for more details.
+This sample helps you create a shippable.yml file for your Node.js project on Shippable and test the installation of bower. It uses Grunt to run tests against an Express server, then generates reports with Xunit and Istanbul. Please refer to our [language specific documentation on Node.js](http://docs.shippable.com/languages/#nodejs) for more details.
 
 ### Build Image
 
